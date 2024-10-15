@@ -6,8 +6,9 @@
 
 <script>
 import Parent from './Inner/Parent.vue'
+
 export default {
   components: { Parent },
-  name: 'Test',
+  name: "Normal"
 }
 </script>
