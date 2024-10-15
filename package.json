@@ -15,6 +15,7 @@
   },
   "author": "",
   "license": "ISC",
+  "keywords": ["vue", "vue2", "vue-context", "context"],
   "description": "",
   "dependencies": {
     "@babel/core": "^7.25.8",
