@@ -25,7 +25,7 @@
   "license": "ISC",
   "keywords": ["vue", "vue2", "vue-context", "context"],
   "description": "",
-  "dependencies": {
+  "devDependencies": {
     "@babel/core": "^7.25.8",
     "@babel/plugin-external-helpers": "^7.25.7",
     "@babel/plugin-syntax-jsx": "^7.25.7",
