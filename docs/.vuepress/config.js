@@ -1,5 +1,5 @@
 module.exports = {
-  base: "vue2-context",
+  base: "/vue2-context/",
   themeConfig: {
     sidebar: [
       '/',
