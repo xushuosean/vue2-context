@@ -45,6 +45,10 @@ jobs:
           key: ${{ runner.os }}-npm-cache-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-npm-cache-
+      
+      # 安装 yarn
+      - name: Install yarn
+        run: npm install -g yarn
 
       # 安装依赖 npm
       - name: Install dependencies
