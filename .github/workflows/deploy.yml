@@ -54,7 +54,7 @@ jobs:
       - name: Install dependencies
         # 如果没有命中缓存才执行 npm install
         if: steps.cache-deps.outputs.cache-hit != 'true'
-        run: npm install
+        run: yarn
 
       # 如果你的依赖是使用yarn的，用这种
       # 缓存 yarn node_modules
