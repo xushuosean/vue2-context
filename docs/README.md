@@ -1,7 +1,5 @@
 # 介绍
 
-[[toc]]
-
 vue2-context由两个方法组成，`useContext` 和 `createContext`
 
 ## 它是如何工作的？
