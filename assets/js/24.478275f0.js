@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[24],{307:function(n,a,e){"use strict";e.r(a);var l={name:"Normal"},o=e(15),r=Object(o.a)(l,(function(){var n=this._self._c;return n("div",[n("NormalComp-Parent")],1)}),[],!1,null,null,null);a.default=r.exports}}]);
