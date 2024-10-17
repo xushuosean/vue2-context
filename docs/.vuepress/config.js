@@ -4,6 +4,7 @@ module.exports = {
     sidebar: [
       '/',
       '/getting-started',
+      '/use'
     ],
     search: false,
   },
