@@ -1,5 +1,7 @@
 # vue2-context
 
+官方文档：[https://xushuosean.github.io/vue2-context](https://xushuosean.github.io/vue2-context)
+
 > 在vue2中实现上下文功能
 
 与react相似，拥有 `createContext` 和 `useContext` api

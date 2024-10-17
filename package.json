@@ -23,15 +23,18 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Sean",
+  "license": "MIT",
   "keywords": [
     "vue",
     "vue2",
     "vue-context",
     "context"
   ],
-  "description": "",
+  "description": "support vue2 for context",
+  "peerDependencies": {
+    "vue": "2.x"
+  },
   "devDependencies": {
     "@babel/core": "^7.25.8",
     "@babel/plugin-external-helpers": "^7.25.7",
