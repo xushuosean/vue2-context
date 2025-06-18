@@ -1,8 +1,8 @@
 <template>
-  <ChatContextProvider :value="hello">
-    parent: {{ hello.val }}
+  <ChatContextProvider :value="{hello}">
+    parent: {{ hello }}
     <Child />
-    <button @click="hello.val++">hello++</button>
+    <button @click="hello++">hello++</button>
   </ChatContextProvider>
 </template>
   
@@ -15,9 +15,7 @@ export default {
   components: { ChatContextProvider, Child },
   data() {
     return {
-      hello: {
-        val: 0
-      }
+      hello: 0
     }
   },
 }

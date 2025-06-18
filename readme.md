@@ -42,7 +42,7 @@ export default {
 ``` javascript
 <template>
   <div>
-    child : {{ context.hello }}</div>
+    child : {{ context.value.hello }}</div>
 </template>
 
 <script>

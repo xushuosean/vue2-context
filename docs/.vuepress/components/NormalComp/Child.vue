@@ -1,6 +1,6 @@
 <template>
   <div>
-    child : {{ context.value.val }}</div>
+    child : {{ context.value.hello }}</div>
 </template>
   
 <script>
