@@ -10,7 +10,7 @@ module.exports = {
   head: [
     [
       "script",
-      { src: "https://www.googletagmanager.com/gtag/js?id=G-PW2N4880DY" },
+      { src: "https://www.googletagmanager.com/gtag/js?id=G-5VYHJZ46PQ" },
     ],
     [
       "script",
@@ -19,7 +19,7 @@ module.exports = {
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-PW2N4880DY');
+      gtag('config', 'G-5VYHJZ46PQ');
     `,
     ],
     [
